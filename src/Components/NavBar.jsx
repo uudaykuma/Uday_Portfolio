@@ -32,7 +32,7 @@ const NavBar = () => {
           </Link>
         )}
         <Link className="Resume" to={{ pathname: "https://drive.google.com/file/d/1YDBgoXNkAIdN9S4ZP3FZVUeuxoA6RIqU/view?usp=sharing" }} target="_blank">
-          <li>Resume</li>
+          <li>Resume <i class="fa fa-download" aria-hidden="true"></i></li>
         </Link>
       </ul>
       <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
