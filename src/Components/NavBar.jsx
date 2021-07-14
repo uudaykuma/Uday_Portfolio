@@ -16,7 +16,7 @@ const linkList = [
   },
   {
     to: '/contact',
-    title: 'Contact Me'
+    title: 'Contact'
   },
 ]
 
@@ -31,7 +31,9 @@ const NavBar = () => {
             <li>{item.title}</li>
           </Link>
         )}
-        <Link className="Resume" to={{ pathname: "https://drive.google.com/file/d/1YDBgoXNkAIdN9S4ZP3FZVUeuxoA6RIqU/view?usp=sharing" }} target="_blank">Resume</Link>
+        <Link className="Resume" to={{ pathname: "https://drive.google.com/file/d/1YDBgoXNkAIdN9S4ZP3FZVUeuxoA6RIqU/view?usp=sharing" }} target="_blank">
+          <li>Resume</li>
+        </Link>
       </ul>
       <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
         {isMobile ? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>}
