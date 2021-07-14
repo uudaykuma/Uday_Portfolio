@@ -5,7 +5,6 @@ import NavBar from '../Components/NavBar'
 import Porfolio from './../Components/Porfolio';
 import Projects from './../Components/Projects';
 import Contact from './../Components/Contact';
-import Resume from './../Components/Resume';
 
 const Routing = () => {
     return (
