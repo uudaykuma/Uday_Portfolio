@@ -1,10 +1,9 @@
 
-import NavBar from "./Components/NavBar"
-import "./styles/output.css"
+import Routing from './Routings/Routing';
 function App() {
   return (
     <>
-      <NavBar />
+     <Routing />
     </>
   );
 }
