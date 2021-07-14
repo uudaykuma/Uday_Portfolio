@@ -16,7 +16,7 @@ const linkList = [
   },
   {
     to: '/contact',
-    title: 'Contact'
+    title: 'Contact Me'
   },
   {
     to: '/resume',
