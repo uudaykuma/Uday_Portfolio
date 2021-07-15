@@ -16,6 +16,7 @@
   font-size: 30px;
 }
 
+
 .nav-Links {
   display: flex;
   justify-content: flex-end;
@@ -45,7 +46,13 @@
     display: flex;
     position: absolute;
     top: 15px;
-    left: 35px;
+    left: 55px;
+  }
+  .logoImage{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 15px;
   }
   .nav-Links {
     display: none;
