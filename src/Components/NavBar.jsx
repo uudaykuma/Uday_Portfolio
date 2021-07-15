@@ -7,8 +7,8 @@ const linkList = [
     title: 'Home'
   },
   {
-    to: '/portfolio',
-    title: 'Portfolio'
+    to: '/skills',
+    title: 'Skills'
   },
   {
     to: '/projects',
