@@ -73,14 +73,23 @@
   width: 100%;
   height: 100%;
 }
-.tech_stack_img:hover{
+.tech_stack_img:hover {
   transition: 1.5s;
   transform: rotate(360deg);
 }
+.dsa_font {
+  font-size: 18px;
+  padding: 10px;
+}
 
 @media screen and (max-width: 780px) {
-  .skills-main-div{
+  .skills-main-div {
     margin-top: 50px;
+  }
+  .dsa_font {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
   }
   .dev-fields {
     width: 50%;
@@ -100,16 +109,15 @@
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
   .text_stack_logo {
-    width: 50%;
+    width: 60%;
     margin: auto;
     display: grid;
     grid-template: "div div";
-    gap: 20px;
     padding: 20px;
   }
   .text_stack_logo > div {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
   .tech_stack_img {
     width: 100%;

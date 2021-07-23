@@ -16,7 +16,7 @@ const Skills = () => {
                     <div className="filed_logo_div">
                         <img className="dsa_logo" src="https://static.thenounproject.com/png/1871524-200.png" alt="" />
                     </div>
-                    <h3>Data Structure & Algorithm</h3>
+                    <h4 className="dsa_font">Data Structure & Algorithm</h4>
                     <p>Arrays,Stacks and Queues, Algorithms.</p>
                 </div>
             </div>

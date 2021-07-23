@@ -49,5 +49,19 @@
     margin-top: 20;
     display: grid;
     grid-template: "div";
+    gap: 20px;
+  }
+  .contact_section > div {
+    border: 1px solid rgb(78, 77, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #03203c;
+    margin-left: -20px;
+  }
+  .contact_head{
+    padding: 10px;
+    margin-left: -30px;
   }
 }
