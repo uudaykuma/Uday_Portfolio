@@ -4,6 +4,8 @@ import Projects from './Projects'
 import Skills from './Skills'
 import NavBar from './NavBar';
 import ScrollToTop from './ScrollToTop';
+import Resume from './Resume';
+import Contact from './Contact';
 
 const LandingPage = () => {
     return (
@@ -18,6 +20,10 @@ const LandingPage = () => {
             </section>
             <section id="projects">
                 <Projects />
+            </section>
+            <Resume />
+            <section id="contact">
+                <Contact />
             </section>
 
 
