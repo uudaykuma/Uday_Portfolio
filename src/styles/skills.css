@@ -1,6 +1,5 @@
 .skills-main-div {
   width: 100%;
-  margin-top: 50px;
 }
 .h1-heading {
   text-align: center;
@@ -85,7 +84,7 @@
 
 @media screen and (max-width: 780px) {
   .skills-main-div {
-    margin-top: 50px;
+    margin-top: 100px;
   }
   .dsa_font {
     text-align: center;
