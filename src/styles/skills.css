@@ -1,6 +1,5 @@
 .skills-main-div {
   width: 100%;
-  gap: 50px;
 }
 .h1-heading {
   text-align: center;
@@ -79,6 +78,9 @@
 }
 
 @media screen and (max-width: 780px) {
+  .skills-main-div{
+    margin-top: 50px;
+  }
   .dev-fields {
     width: 50%;
     margin: auto;
