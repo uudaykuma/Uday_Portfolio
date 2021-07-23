@@ -3,8 +3,9 @@
 }
 .h1-heading {
   text-align: center;
-  padding: 10px;
+  padding: 30px;
   font-family: cursive;
+  font-size: 30px;
   color: #03203c;
 }
 .dev-fields {
