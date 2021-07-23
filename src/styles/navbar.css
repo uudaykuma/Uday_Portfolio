@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -15,7 +19,6 @@
 .logo {
   font-size: 30px;
 }
-
 
 .nav-Links {
   display: flex;
@@ -48,7 +51,7 @@
     top: 15px;
     left: 55px;
   }
-  .logoImage{
+  .logoImage {
     display: flex;
     position: absolute;
     top: 15px;
@@ -59,7 +62,8 @@
   }
   .nav-Links-mobile {
     position: absolute;
-    display: block;
+    display: grid;
+    grid-template: "a";
     list-style: none;
     background-color: #132f49;
     left: 0;

@@ -1,9 +1,8 @@
-
-import Routing from './Routings/Routing';
+import LandingPage from './Components/LandingPage';
 function App() {
   return (
     <>
-     <Routing />
+     <LandingPage />
     </>
   );
 }

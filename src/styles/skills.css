@@ -4,6 +4,8 @@
   display: grid;
   grid-template: "div div div";
   gap: 50px;
+  margin-top: 80px;
+  border: 1px solid black;
 }
 .skills-main-div > div {
   width: 100%;
