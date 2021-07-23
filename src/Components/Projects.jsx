@@ -40,7 +40,7 @@ const Projects = () => {
                 </a>
               </button>
               <button className="project_blog">
-                  <a href="https://uday97.hashnode.dev/google-digital-garage-clone"target="_blank"
+                  <a href="https://uday97.hashnode.dev/kindmealmy-clone"target="_blank"
                   rel="noreferrer">BLOG</a>
               </button>
             </div>
@@ -60,8 +60,8 @@ const Projects = () => {
                 </a>
               </button>
               <button className="project_blog">
-                  <a href="https://uday97.hashnode.dev/google-digital-garage-clone"target="_blank"
-                  rel="noreferrer">BLOG</a>
+                  <a href="https://cloning-premierleague.netlify.app/"target="_blank"
+                  rel="noreferrer">VIEW SITE</a>
               </button>
             </div>
           </div>
