@@ -1,16 +1,6 @@
 import React from 'react'
 import "../styles/project.css"
-import Carousel from "react-elastic-carousel"
-import { project1 } from './projectData'
 
-const breakPoints = [
-    {
-        width: "100%",
-        itemsToShow: 1,
-        itemsToScroll: 1,
-        activePage: false,
-    },
-];
 const Projects = () => {
     return (
         <div className="project_main_div">
