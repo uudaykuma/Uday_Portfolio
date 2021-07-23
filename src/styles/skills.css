@@ -1,52 +1,115 @@
 .skills-main-div {
   width: 100%;
-  height: 400px;
-  display: grid;
-  grid-template: "div div div";
   gap: 50px;
-  margin-top: 80px;
-  border: 1px solid black;
-}
-.skills-main-div > div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.skills-main-div > div > img {
-  width: 50%;
-  height: 50%;
-  border-radius: 50%;
 }
 .h1-heading {
   text-align: center;
+  padding: 10px;
+  font-family: cursive;
+  color: #03203c;
+}
+.dev-fields {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template: "div div";
+  gap: 30px;
+}
+.dev-fields > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dev-fields > div > h3 {
+  padding: 10px;
+}
+.dev-fields > div > p {
+  text-align: center;
+  padding: 20px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.filed_logo_div {
+  background: #46b2e0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dsa_logo {
+  width: 80px;
+  height: 80px;
+}
+.filed_logo_div > img:hover {
+  transition: 1.5s;
+  transform: rotate(360deg);
+}
+
+.technical_skills {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-top: 80px;
+  font-family: cursive;
+}
+
+.text_stack_logo {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template: "div div div";
+  gap: 30px;
   padding: 20px;
 }
-.h3-heading {
-  text-align: center;
-  padding: 10px;
-  font-weight: 700;
+.text_stack_logo > div {
+  width: 110px;
+  height: 110px;
 }
-.skills-list {
-  text-align: center;
-  letter-spacing: 0.5px;
-  word-spacing: 1px;
-  padding: 10px;
+.tech_stack_img {
+  width: 100%;
+  height: 100%;
+}
+.tech_stack_img:hover{
+  transition: 1.5s;
+  transform: rotate(360deg);
 }
 
 @media screen and (max-width: 780px) {
-  .skills-main-div {
-    width: 100%;
-    height: 400px;
+  .dev-fields {
+    width: 50%;
+    margin: auto;
     display: grid;
     grid-template: "div";
-    gap: 40px;
-    margin-top: 20px;
+    gap: 30px;
   }
-  .skills-main-div > div > img {
-    width: 45%;
-    height: 45%;
-    border-radius: 50%;
+  .dev-fields > div > h3 {
+    font-size: 17px;
+  }
+  .dev-fields > div > p {
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .text_stack_logo {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template: "div div";
+    gap: 20px;
+    padding: 20px;
+  }
+  .text_stack_logo > div {
+    width: 60px;
+    height: 60px;
+  }
+  .tech_stack_img {
+    width: 100%;
+    height: 100%;
   }
 }

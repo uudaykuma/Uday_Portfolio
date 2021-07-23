@@ -2,33 +2,49 @@ import React from 'react'
 import "../styles/skills.css"
 const Skills = () => {
     return (
-        <>
-
-            <div className="skills-main-div" >
-                <h1 className="h1-heading">My Proficiency</h1>
-                {/* <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3YraeeRnBhf1Sd-QQndtiCYLL5RTFWDhvjcooa9c8NqWeU6D0vP3x-3l1bfX5vskcToE&usqp=CAU" alt="" />
-                    <div>
-                        <h3 className="h3-heading">Front End</h3>
-                        <p className="skills-list">HTML,CSS,JAVASCRIPT,REACT,REDUX</p>
+        <div className="skills-main-div" >
+            <h2 className="h1-heading">My Proficiency</h2>
+            <div className="dev-fields">
+                <div>
+                    <div className="filed_logo_div">
+                        <img src="https://img.icons8.com/ios/2x/react-native.png" alt="" />
                     </div>
+                    <h3>Front End</h3>
+                    <p>HTML, CSS, Javascript, React, Redux, Material UI.</p>
                 </div>
                 <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3YraeeRnBhf1Sd-QQndtiCYLL5RTFWDhvjcooa9c8NqWeU6D0vP3x-3l1bfX5vskcToE&usqp=CAU" alt="" />
-                    <div>
-                        <h3 className="h3-heading">Back End</h3>
-                        <p className="skills-list">HTML,CSS,JAVASCRIPT,REACT,REDUX</p>
+                    <div className="filed_logo_div">
+                        <img className="dsa_logo" src="https://static.thenounproject.com/png/1871524-200.png" alt="" />
                     </div>
+                    <h3>Data Structure & Algorithm</h3>
+                    <p>Arrays,Stacks and Queues, Algorithms.</p>
                 </div>
-                <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3YraeeRnBhf1Sd-QQndtiCYLL5RTFWDhvjcooa9c8NqWeU6D0vP3x-3l1bfX5vskcToE&usqp=CAU" alt="" />
-                    <div>
-                        <h3 className="h3-heading">Data Structure & Algorithm</h3>
-                        <p className="skills-list">HTML,CSS,JAVASCRIPT,REACT,REDUX</p>
-                    </div>
-                </div> */}
             </div>
-        </>
+
+            <div className="technical_skills">
+                <h2 className="h1-heading">Tech Stacks</h2>
+                <div className="text_stack_logo">
+                    <div>
+                        <img className="tech_stack_img" src="https://cdn.worldvectorlogo.com/logos/html5.svg" alt="" />
+                    </div>
+                    <div>
+                        <img className="tech_stack_img" src="https://cdn.worldvectorlogo.com/logos/css3.svg" alt="" />
+                    </div>
+                    <div>
+                        <img className="tech_stack_img" src="https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png" alt="" />
+                    </div>
+                    <div>
+                        <img className="tech_stack_img" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="" />
+                    </div>
+                    <div>
+                        <img className="tech_stack_img" src="https://cdn.iconscout.com/icon/free/png-512/redux-283024.png" alt="" />
+                    </div>
+                    <div>
+                        <img className="tech_stack_img" src="https://material-ui.com/static/logo.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
     )
 }
 

@@ -11,7 +11,7 @@ const NavBar = () => {
 
     window.scrollTo({
       left: 0,
-      top: location - 80
+      top: location-50
     })
   }
   return (
