@@ -60,8 +60,8 @@ const Projects = () => {
                 </a>
               </button>
               <button className="project_blog">
-                  <a href="https://cloning-premierleague.netlify.app/"target="_blank"
-                  rel="noreferrer">VIEW SITE</a>
+                  <a href="https://medium.com/@uudaykuma/premier-league-clone-5a7a409a7e6e"target="_blank"
+                  rel="noreferrer">BLOG</a>
               </button>
             </div>
           </div>
