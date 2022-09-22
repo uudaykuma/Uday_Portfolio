@@ -6,7 +6,7 @@ const Home = () => {
             <div className="profile-pic-div">
                 <img
                     className="profile-img"
-                    src="https://media-exp1.licdn.com/dms/image/C5603AQFgbr3djRuu9A/profile-displayphoto-shrink_800_800/0/1615875058102?e=1631750400&v=beta&t=YbMY7PXB940KCrKajTXsFM74eAKwNheBgEVI5MZ-kK4"
+                    src="./ProfilePic.jpg"
                     alt=""
                 />
             </div>
