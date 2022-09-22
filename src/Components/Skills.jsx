@@ -25,7 +25,7 @@ const Skills = () => {
                 <h2 className="h1-heading">Tech Stacks</h2>
                 <div className="text_stack_logo">
                     <div>
-                        <img className="tech_stack_img" src="https://techbeacon.com/sites/default/files/styles/social/public/html5-mobile-app-native-hybrid-pros-cons.jpg?itok=R3pMKIzh" alt="" />
+                        <img className="tech_stack_img" src="https://i0.wp.com/gafish.fr/wp-content/uploads/2013/03/html5.png?fit=512%2C512&ssl=1" alt="" />
                     </div>
                     <div>
                         <img className="tech_stack_img" src="https://cdn.worldvectorlogo.com/logos/css3.svg" alt="" />
