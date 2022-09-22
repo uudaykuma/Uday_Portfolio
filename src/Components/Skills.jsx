@@ -28,7 +28,7 @@ const Skills = () => {
                         <img className="tech_stack_img" src="https://i0.wp.com/gafish.fr/wp-content/uploads/2013/03/html5.png?fit=512%2C512&ssl=1" alt="" />
                     </div>
                     <div>
-                        <img className="tech_stack_img" src="https://cdn.worldvectorlogo.com/logos/css3.svg" alt="" />
+                        <img className="tech_stack_img" src="https://camo.githubusercontent.com/119b29ca4b9d31cf3969a94eb57fcfbbea0879b493c09c89dc6d4b7fb9e0dc37/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667" alt="" />
                     </div>
                     <div>
                         <img className="tech_stack_img" src="https://cdn.iconscout.com/icon/free/png-512/javascript-2752148-2284965.png" alt="" />
